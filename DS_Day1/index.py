@@ -37,7 +37,7 @@ print("above_average_students", above_average_students)
 
 # Plot histogram of 'Total' marks
 plt.hist(students['Total'])
-plt.show()
+# plt.show()
 
 # Plot bar of 'average marks' for subjects
 average_marks_subjects = students[['Math_Score', 'English_Score', 'Science_Score']].mean()
@@ -51,4 +51,4 @@ plt.scatter(students['Total'], students['Percentage'])
 plt.xlabel('Total Marks')
 plt.ylabel('Percentage')
 plt.title('Scatter Plot of Percentage vs Total Marks')
-plt.show()
+# plt.show()
